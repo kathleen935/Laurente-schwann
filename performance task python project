@@ -2,7 +2,8 @@ import turtle
 
 # Setup
 flower = turtle.Turtle()
-flower.speed(10000000)
+flower.speed(10)
+flower.color("purple")
 
 # Draw a simple flower
 for _ in range(6):  # 6 petals
